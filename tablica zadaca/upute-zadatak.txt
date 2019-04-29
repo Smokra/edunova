@@ -1,0 +1,3 @@
+U prilogu su dvije slièice, slièica (tablica.jpg) prikazuje jednu tablicu, Vaš zadatak je da napravite u HTML-u takvu tablicu, bar sliènu.
+Druga slièica (Celija-gore-pozadina.jpg) je slièica koju trebate postaviti kao pozadinsku slièicu æelijama u prvom redu tablice, ostalim æelijama zadajte pozadinsku boju.
+Koristite naravno CSS (ID, klase, sve po potrebi)

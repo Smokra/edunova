@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vježba 2</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			body {
+				font-family: Arial;
+				font-size: 15px;
+				line-height: 19px;
+			}
+			h1, h2, h3, p {
+				margin: 0;
+				padding: 0;
+			}
+			h1 {
+				font-size: 18px;
+				text-decoration: underline;
+				color: #001a33;
+				margin-bottom: 20px;
+			}
+			h3 {
+				font-size: 17px;
+				margin-bottom: 10px;
+			}
+			ul {
+				padding: 30px;
+				margin: 20px;
+				border: 2px solid #FF0000;
+				background-color: #006600;
+			}
+			#ul-html {
+				background-color: #333333;
+				color: #FFFFFF;
+				font-size: 20px;
+				list-style-type: circle;
+			}
+			#ul-html li {
+				margin-bottom: 15px;
+				width: 50%;
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
+			#ul-html li strong {
+				text-decoration: underline;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+			#ul-html .bolder {
+				background-color: #FF0000;
+			}
+			#main-menu {
+				background-color: #c3c3c3;
+			}
+			#main-menu li, #main-menu li a {
+				color: green;
+				text-decoration: none;
+			}
+			#main-menu li a:hover {
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Osnove HTML i CSS</h1>
+		<h3>Osnove HTML</h3>
+		<ul id="ul-html">
+			<li>HTML - Hypertext Markup Language</li>
+			<li class="bolder light">Opisni jezik koji browser-u opisuje što prikazati i na koji način</li>
+			<li>Verzije: HTML 4.01 - XHTML - HTML5</li>
+			<li class="bolder">Novo u HTML5 je: Novi tag-ovi, <strong>novi</strong> atributi</li>
+			<li>Osnovni strukturni tag-ovi: html, head, body</li>
+			<li class="bolder">Osnovni sadržajni tag-ovi: h1, p, ul, strong, li, span, table</li>
+			<li>Postoje jednostruki tag-ovi: img, hr, br</li>
+			<li class="bolder">Oblikovanje HTML-a: radimo pomoću stilskog jezika CSS</li>
+		</ul>
+		<!-- Kraj HTML i početak CSS-->
+		<h3><strong>Osnove</strong> CSS-a</h3>
+		<ul id="ul-css">
+			<li>CSS - Cascading Style Sheet</li>
+			<li>Stilski jezik kojim oblikujemo HTML</li>
+			<li>Verzije: CSS1, CSS2, CSS3</li>
+			<li style="color: #999999; font-weight: bold; font-size: 17px;">Novo u CSS3 su nova svojstva</li>
+			<li>Vanjski CSS, unutarnji CSS i inline CSS</li>
+			<li>Unutarnji CSS je unutar HTML dokumenta i style tag-a u head-u</li>
+			<li>CSS pravilo se sastoji od selektora, svojstva i vrijednosti</li>
+			<li>Tri tipa selektora: Tag selektor, ID selektor, Class selektor</li>
+		</ul>
+		<p>Za zadaću proći www.w3schools.com <strong>HTML i CSS</strong></p>
+		<h3>Mini navigacija</h3>
+		<ul id="main-menu">
+			<li>Početna</li>
+			<li><a href="html-opis.html">HTML</a></li>
+			<li><a href="css-opis.html">CSS</a></li>
+			<li><a href="js-opis.html">JS</a></li>
+			<li><a href="php-opis.html">PHP</a></li>
+			<li><a href="mysql-opis.html">MySQL</a></li>
+		</ul>
+		<h3>Slike</h3>
+		<img src="https://www.tportal.hr/media/thumbnail/w1000/496081.jpeg">
+		<img src ="images/osijek.jpg">
+		<img src ="images/osijek/osijek2.jpg">
+		<img src ="../vjezba2/osijek3.jpg">
+	</body>
+</html>
