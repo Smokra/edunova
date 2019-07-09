@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript osnove</title>
+	<script type="text/javascript" src="js/vanjskiJS.js"></script>
+</head>
+<body>
+<h1>JS Osnove</h1>
+<script type="text/javascript">
+	var str = "Hello World!";
+	var n = str.length;
+	//alert(n);
+	var str = "Hello world!";
+	var res = str.substr(1, 4);
+	var str = "Hello World!";
+	var resVs = str.toUpperCase();
+	var num = 2.45;
+	var res = Math.round(num);
+	//console.log(resVs);
+	//FOR petlja
+	for(i = 1; i < 10; i++){
+		if(i==5){
+			//console.log('Ti si peti broj');
+			i++;
+		}
+		//console.log(i);
+	}
+	var i = 1;
+	var test = 'da';
+	if(test == 'da'){
+		i=12;
+	}
+	while(i < 10){
+		console.log(i);
+		i++;
+	}
+</script>
+<ul>
+	<li onclick="ispis('Računalo HP 520GTX','Ovo je odlično računalo')">Računalo HP 520GTX</li>
+	<li onclick="ispis('Računalo Lenovo 312GT','Ovo je jako dobro računalo')">Računalo Lenovo 312GT</li>
+</ul>
+<div id="rezultat">
+	<h1>Računalo Lenovo 312GT</h1><p>Ovo je jako dobro računalo</p>
+</div>
+</body>
+</html>

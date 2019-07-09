@@ -1,0 +1,11 @@
+1. Pred kraj forme prije gumba dodajte dva inputa #txt1 i #txt2 oba neka budu type text
+2. Podesite validaciju da ova dva inputa primaju samo brojeve
+3. pomocu jQuery on click na button napravite da preuzmete vrijednosti iz oba inputa 
+zbrojite ove dvije vrijednosti i ako je rezultat manji od 100 da div #rez dobije klasu
+.error-rez a ako je veci od 100 klasu .success-rez 
+4. rezultat ispišite u div #rez
+5. Napravite novi gumb (input type button), nazovite ga #btt2 
+6. Napravite jQuery koji ce uzeti vrijednost iz #rez i povecati za broj 50 a onda tako
+uvecan ponovno ispisati u div #rez
+
+var rez = $('#div-rez').text();

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript osnove - HTML forma</title>
+	</head>
+	<body>
+	<h1>HTML forma - obrazac</h1>
+	<form action="" method="get" id="Obrazac1">
+		<p>Ime</p>
+		<p>
+			<input type="text" id="ime" name="ime" value="">
+		</p>
+		<div>
+			<label for="prezime">Unesite prezime</label>
+			<input type="text" id="prezime" name="prezime" value="">
+		</div>
+		<div>
+			<label for="email">Unesite email</label>
+			<input type="text" id="email" name="email" value="pero@peric.hr">
+		</div>
+		<div>
+			<label for="pass">Unesite lozinku</label>
+			<input type="password" id="pass" name="pass" value="" placeholder="12345">
+		</div>
+		<div>
+			<label for="smjer">Odaberite smjer</label>
+			<select id="smjer" name="smjer">
+				<option>Web dizajner</option>
+				<option>Grafički dizajner</option>
+				<option>Web programer</option>
+				<option>Java programer</option>
+			</select>
+		</div>
+		<div>
+			<label for="poruka">Unesite poruku</label>
+			<textarea id="poruka" name="poruka"></textarea>
+		</div>
+		<div>
+			<input type="submit" id="spremi" name="spremi" value="Spremi">
+			<input type="hidden" id="skriven" name="skriven" value="Neka skrivena vrijednost">
+		</div>
+	</form>
+	</body>
+</html>

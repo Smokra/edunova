@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Javascript osnove</title>
+<body>
+<h1>JS Osnove</h1>
+<script type="text/javascript">
+	var a = 5;
+	var b = 20;
+	var c = a + b;
+	var ime = "Pavle";
+	//var c = ime + c;
+	var txt1 = "Moj nadimak je 'nekakav'";
+	var txt2 = 'Moj nadimak je "nekakav"';
+	var txt3 = 'Moj nadimak je nek\'o ne\\kakav';
+	var osoba = ime + " ima " + c + " godina!";
+	//alert(osoba);
+	var punoljetan = "";
+	if(c>=18){
+		punoljetan = "da";
+	}else{
+		punoljetan = "ne";
+	}
+	//alert(ime+" "+punoljetan);
+	function zbroji(){
+		var a = 5;
+		var b = 20;
+		var c = a + b;
+		alert(c);
+	}
+	//zbroji();
+	function pametnoZbroji(a,b){
+		var c = a + b;
+		alert(c);
+	}
+	//pametnoZbroji(13,42);
+	function ispis(naslov,opis){
+		document.getElementById('rezultat').innerHTML= "<h1>" + naslov + "</h1><p>" + opis + "</p>";
+	}
+</script>
+<ul>
+	<li onclick="ispis('Računalo HP 520GTX','Ovo je odlično računalo')">Računalo HP 520GTX</li>
+	<li onclick="ispis('Računalo Lenovo 312GT','Ovo je jako dobro računalo')">Računalo Lenovo 312GT</li>
+</ul>
+<div id="rezultat">
+	<h1>Računalo Lenovo 312GT</h1><p>Ovo je jako dobro računalo</p>
+</div>
+</body>
+</html>

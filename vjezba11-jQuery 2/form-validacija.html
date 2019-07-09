@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Vjezba 7</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="header-content">
+            <img src="images/biglogo.png" alt="logo">
+            <h1>Web Design Agency</h1>
+            <a href="#" class="btn blue">Read more</a>
+            <a href="#" class="btn green">Buy now</a>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div id="title">
+        <div id="title-content">
+            <h2><i>Merhaba</i> we are Genious, we have brought together the best quality services, offers, projects for
+                you!
+            </h2>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div id="content">
+
+        <div id="content-head">
+            <div class="col-3">
+                <img src="images/icon1.png" alt="outstaning design">
+                <h4>Outstaning design</h4>
+                <p>Designed to be flexible according to all your needs. Create your site with all module position.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/icon2.png" alt="responsive layout">
+                <h4>Responsive layout</h4>
+                <p>Genius template can beeasily viewed on any mobile device. Smoothly responsive.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/icon3.png" alt="easy to use">
+                <h4>Easy to use</h4>
+                <p>The modules we have prepared are simple to use. No code information is needed.</p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+        <div style="clear: both"></div>
+
+        <div id="content-imgs">
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="plumeria logo design">
+                <h5>Vivamus porta</h5>
+                <p>Lectus purus, et ultricies quam vehicula a. Proin auctor, felis
+                    quis imperdiet
+                    finibus,
+                    sem lacus bibendum elit, quis.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="back to life">
+                <h5>Sed tempus vehicula</h5>
+                <p>Bosuere. Duis sit amet bibendum lorem, at pharetra mi.
+                    Phasellus venenatis
+                    interdum erat, luctus semper lorem volutpat.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="creative share app">
+                <h5>Nunc vitae</h5>
+                <p>Lacus justo. Nullam arcu ex, ornare vitae lacus faucibus, luctus
+                    accumsan metus. Fusce
+                    auctor ullamcorper dapibus. Mauris nec.</p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+
+        <div id="content-imgs">
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="luana 3d max">
+                <h5>Suspendisse luctus risus</h5>
+                <p>
+                    Vel condimentum imperdiet. Suspendisse faucibus mollis
+                    congue. Vivamus
+                    eu
+                    hendrerit magna, id iaculis velit. Morbi velit massa.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="custom m logo">
+                <h5>Maecenas condimentum nulla</h5>
+                <p>Id iaculis suscipit. Proin scelerisque vel tellus in
+                    suscipit. Quisque
+                    nec
+                    vulputate erat. Vestibulum ut ligula molestie.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="internal app project">
+                <h5>Curabitur tristique</h5>
+                <p>Mi non vulputate imperdiet. Curabitur accumsan, risus eget
+                    malesuada
+                    dignissim,
+                    lacus lacus egestas dui, quis rutrum ipsum nibh.</p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+
+        <div id="content-imgs">
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="audio player app">
+                <h5>Nullam mattis dolor</h5>
+                <p>Ornare tempor venenatis. Aenean non mattis purus, in
+                    ullamcorper lacus. Proin
+                    vitae consequat odio. Pellentesque in purus.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="geek vector design">
+                <h5>Fusce placerat</h5>
+                <p>Ipsum sed enim interdum, eget lacinia neque suscipit. Integer
+                    iaculis lorem vitae
+                    turpis pellentesque, at ornare lacus laoreet.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="sweet admin dashboard">
+                <h5>Praesent et leo</h5>
+                <p>Pretium, elementum diam ac, mattis elit. Donec ut justo sit amet
+                    libero dapibus
+                    pellentesque. Phasellus euismod libero.</p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        
+        <h1>HTML forma - obrazac</h1>
+    <form action="" method="get" id="Obrazac1">
+        <p>Ime</p>
+        <p>
+            <input type="text" id="ime" name="ime" value="" data-validation="length alphanumeric" data-validation-length="4-12" data-validation-allowing="ČčĆćŽžŠšĐđ">
+        </p>
+        <div>
+            <label for="prezime">Unesite prezime</label>
+            <input type="text" id="prezime" name="prezime" value="">
+        </div>
+        <div>
+            <label for="email">Unesite email</label>
+            <input type="text" id="email" name="email" value="" data-validation="email">
+        </div>
+        <div>
+            <label for="pass">Unesite lozinku</label>
+            <input type="password" id="pass" name="pass" value="" placeholder="12345">
+        </div>
+        <div>
+            <label for="smjer">Odaberite smjer</label>
+            <select id="smjer" name="smjer">
+                <option value="wd25">Web dizajner</option>
+                <option>Grafički dizajner</option>
+                <option>Web programer</option>
+                <option>Java programer</option>
+            </select>
+        </div>
+        <div>
+            <label for="poruka">Unesite poruku</label>
+            <textarea id="poruka" name="poruka"></textarea>
+        </div>
+        <div>
+            <h3>Hobi</h3>
+            <div>
+                <label for="hobi1">Nogomet</label>
+                <input type="checkbox" id="hobi1" name="hobi1" value="football">
+            </div>
+            <div>
+                <label for="hobi2">Tenis</label>
+                <input type="checkbox" id="hobi2" name="hobi2" value="tennis">
+            </div>
+            <div>
+                <label>Rukomet <input type="checkbox" id="hobi3" name="hobi3" value="rukomet"></label>
+            </div>
+        </div>
+        <div>
+            <h3>Spol</h3>
+            <div>
+                <label>Muški spol <input type="radio" id="spolm" name="spol" value="m"></label>
+            </div>
+            <div>
+                <label>Ženski spol <input type="radio" id="spolz" name="spol" value="ž"></label>
+            </div>
+        </div>
+        <div>
+            <input type="button" id="spremi" name="spremi" value="Spremi">
+            <input type="hidden" id="skriven" name="skriven" value="Neka skrivena vrijednost">
+        </div>
+        <div id="rez">
+            <h3>Ovdje je rez:</h3>
+            <p>Vrijednost</p>
+            <p>Vrijednost</p>
+            <p>Vrijednost</p>
+            <p>Vrijednost</p>
+            <p>Vrijednost</p>
+            <p>Vrijednost</p>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var croLang = {
+                errorTitle: 'Form submission failed!',
+                requiredFields: 'You have not answered all required fields',
+                badTime: 'You have not given a correct time',
+                badEmail: 'Molimo unesite ispravan email',
+                badTelephone: 'You have not given a correct phone number',
+                badSecurityAnswer: 'You have not given a correct answer to the security question',
+                badDate: 'You have not given a correct date',
+                lengthBadStart: 'The input value must be between ',
+                lengthBadEnd: ' characters',
+                lengthTooLongStart: 'The input value is longer than ',
+                lengthTooShortStart: 'The input value is shorter than ',
+                notConfirmed: 'Input values could not be confirmed',
+                badDomain: 'Incorrect domain value',
+                badUrl: 'The input value is not a correct URL',
+                badCustomVal: 'The input value is incorrect',
+                andSpaces: ' and spaces ',
+                badInt: 'The input value was not a correct number',
+                badSecurityNumber: 'Your social security number was incorrect',
+                badUKVatAnswer: 'Incorrect UK VAT Number',
+                badStrength: 'The password isn\'t strong enough',
+                badNumberOfSelectedOptionsStart: 'You have to choose at least ',
+                badNumberOfSelectedOptionsEnd: ' answers',
+                badAlphaNumeric: 'The input value can only contain alphanumeric characters ',
+                badAlphaNumericExtra: ' and ',
+                wrongFileSize: 'The file you are trying to upload is too large (max %s)',
+                wrongFileType: 'Only files of type %s is allowed',
+                groupCheckedRangeStart: 'Please choose between ',
+                groupCheckedTooFewStart: 'Please choose at least ',
+                groupCheckedTooManyStart: 'Please choose a maximum of ',
+                groupCheckedEnd: ' item(s)',
+                badCreditCard: 'The credit card number is not correct',
+                badCVV: 'The CVV number was not correct',
+                wrongFileDim : 'Incorrect image dimensions,',
+                imageTooTall : 'the image can not be taller than',
+                imageTooWide : 'the image can not be wider than',
+                imageTooSmall : 'the image was too small',
+                min : 'min',
+                max : 'max',
+                imageRatioNotAccepted : 'Image ratio is not accepted'
+            };
+                $.validate({
+                    language: croLang
+                });
+            });
+        </script>
+    </form>
+
+
+        <div style="clear: both"></div>
+
+    </div>
+
+</body>
+
+</html>

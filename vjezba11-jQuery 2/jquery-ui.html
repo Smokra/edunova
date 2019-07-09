@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Vjezba 7</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="header-content">
+            <img src="images/biglogo.png" alt="logo">
+            <h1>Web Design Agency</h1>
+            <a href="#" class="btn blue">Read more</a>
+            <a href="#" class="btn green">Buy now</a>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div id="title">
+        <div id="title-content">
+            <h2><i>Merhaba</i> we are Genious, we have brought together the best quality services, offers, projects for
+                you!
+            </h2>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div id="content">
+
+        <div id="content-head">
+            <div class="col-3">
+                <img src="images/icon1.png" alt="outstaning design">
+                <h4>Outstaning design</h4>
+                <p>Designed to be flexible according to all your needs. Create your site with all module position.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/icon2.png" alt="responsive layout">
+                <h4>Responsive layout</h4>
+                <p>Genius template can beeasily viewed on any mobile device. Smoothly responsive.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/icon3.png" alt="easy to use">
+                <h4>Easy to use</h4>
+                <p>The modules we have prepared are simple to use. No code information is needed.</p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+        <div style="clear: both"></div>
+
+        <div id="content-imgs">
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="plumeria logo design">
+                <h5>Vivamus porta</h5>
+                <p>Lectus purus, et ultricies quam vehicula a. Proin auctor, felis
+                    quis imperdiet
+                    finibus,
+                    sem lacus bibendum elit, quis.</p>
+            </div>
+            <div class="col-3">
+                <a data-fancybox="gallery" href="images/slika2.jpg"><img src="images/slika1.jpg" alt="back to life"></a>
+                <h5>Sed tempus vehicula</h5>
+                <p>Bosuere. Duis sit amet bibendum lorem, at pharetra mi.
+                    Phasellus venenatis
+                    interdum erat, luctus semper lorem volutpat.</p>
+            </div>
+            <div class="col-3">
+                <a data-fancybox="gallery" href="images/slika3.jpg"><img src="images/slika1.jpg" alt="creative share app"></a>
+                <h5>Nunc vitae</h5>
+                <p>Lacus justo. Nullam arcu ex, ornare vitae lacus faucibus, luctus
+                    accumsan metus. Fusce
+                    auctor ullamcorper dapibus. Mauris nec.</p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+
+        <div id="content-imgs">
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="luana 3d max">
+                <h5>Suspendisse luctus risus</h5>
+                <p>
+                    Vel condimentum imperdiet. Suspendisse faucibus mollis
+                    congue. Vivamus
+                    eu
+                    hendrerit magna, id iaculis velit. Morbi velit massa.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="custom m logo">
+                <h5>Maecenas condimentum nulla</h5>
+                <p>Id iaculis suscipit. Proin scelerisque vel tellus in
+                    suscipit. Quisque
+                    nec
+                    vulputate erat. Vestibulum ut ligula molestie.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="internal app project">
+                <h5>Curabitur tristique</h5>
+                <p>Mi non vulputate imperdiet. Curabitur accumsan, risus eget
+                    malesuada
+                    dignissim,
+                    lacus lacus egestas dui, quis rutrum ipsum nibh.</p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+
+        <div id="content-imgs">
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="audio player app">
+                <h5>Nullam mattis dolor</h5>
+                <p>Ornare tempor venenatis. Aenean non mattis purus, in
+                    ullamcorper lacus. Proin
+                    vitae consequat odio. Pellentesque in purus.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="geek vector design">
+                <h5>Fusce placerat</h5>
+                <p>Ipsum sed enim interdum, eget lacinia neque suscipit. Integer
+                    iaculis lorem vitae
+                    turpis pellentesque, at ornare lacus laoreet.</p>
+            </div>
+            <div class="col-3">
+                <img src="images/slika1.jpg" alt="sweet admin dashboard">
+                <h5>Praesent et leo</h5>
+                <p>Pretium, elementum diam ac, mattis elit. Donec ut justo sit amet
+                    libero dapibus
+                    pellentesque. Phasellus euismod libero.</p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <script>
+          $( function() {
+            $( "#accordion" ).accordion();
+            $( "#tabs" ).tabs();
+            $( "#datepicker" ).datepicker({
+                  dateFormat: "yy-mm-dd"
+                });
+          } );
+        </script>
+
+        <div id="accordion" class="edunova-accordion">
+          <h3>Section 1</h3>
+          <div>
+            <p>
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+            </p>
+          </div>
+          <h3>Section 2</h3>
+          <div>
+            <p>
+            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+            suscipit faucibus urna.
+            </p>
+          </div>
+          <h3>Section 3</h3>
+          <div>
+            <p>
+            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+            Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+            ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+            lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+            </p>
+            <ul>
+              <li>List item one</li>
+              <li>List item two</li>
+              <li>List item three</li>
+            </ul>
+          </div>
+          <h3>Section 4</h3>
+          <div>
+            <p>
+            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+            mauris vel est.
+            </p>
+            <p>
+            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos.
+            </p>
+          </div>
+        </div>
+        <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Nunc tincidunt</a></li>
+        <li><a href="#tabs-2">Proin dolor</a></li>
+        <li><a href="#tabs-3">Aenean lacinia</a></li>
+      </ul>
+      <div id="tabs-1">
+        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+      </div>
+      <div id="tabs-2">
+        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+      </div>
+      <div id="tabs-3">
+        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+      </div>
+    </div>
+    <p>Date: <input type="text" id="datepicker"></p>
+        <div style="clear: both"></div>
+
+    </div>
+
+</body>
+
+</html>
